@@ -16,11 +16,11 @@ The video sessions would take around 1h 30minutes each. We can restrict the foll
 I think even watching the videos only would be sufficient, but during these two weeks, if you study the relevant chapter, I guess it might take another hour for you, depending on how deeply you get involved with the material.
 
 ## Audience
-The book defines the target audience as:
+The book defines its target audience as:
 
 > The principal audience is researchers in the natural and social sciences, whether new PhD students or seasoned professionals, who have had a basic course on regression but nevertheless remain uneasy about statistical modeling.
 
-Feel free to refer friends as long as they commit to the rules.
+So if you think you are one of those people, that's great! Feel free to refer friends as long as they commit to the meetings and the rules.
 
 ## The book
 The book is this one:
