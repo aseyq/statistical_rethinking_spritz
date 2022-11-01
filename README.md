@@ -1,24 +1,33 @@
 ![](spritzlogo.png)
 
-Hi there and thanks for your interest. In this study group, we will work on famous "Statistical Rethinking" book by Richard McElreath. It is a course on Bayesian Statistics (but with many insights regardless of the approach). In addition to the book itself, there is also a set of videos.
+Hi there, and thanks for your interest. In this study group, we will work on the famous "Statistical Rethinking" book by Richard McElreath. It is a course on Bayesian Statistics, but regardless of the methods, it contains valuable insights into how we think of data and science. In addition to the book, there is also a set of videos made publicly available by McElreath.
 
-## What we will do?
-**First of all, we'll keep each other accountable**. We all have busy schedules and it is easy to sacrifice from self-study hours when something more urgent comes up. So the first thing is to set a fixed schedule to study each chapter. And with a group of friends, it is much easier and fun to follow it.
+## What will we do?
+**First of all, we'll keep each other accountable**. We all have busy schedules, and it is easy to sacrifice self-study hours when something more urgent comes up. So the first thing is to set a fixed schedule to study each chapter. And with a group of friends, it is much easier and fun to follow it.
 
-Beside that, I think **we can watch lecture videos together**. Most of them are between 1h and 1h20mins. We can watch these over zoom and then **discuss and solve some of the questions together** at the end of each chapter. I think it is useful if we can ask quick questions to each other in case something is unclear. As the name of the group suggests, I imagined that we'd gather around aperitivo time, so we can eat and drink at the same time.
+Besides that, we can **watch lecture videos together**. Most of them are between 1h and 1h20mins. We can watch these over zoom, and then **discuss and solve some of the questions together** at the end of each chapter. 
 
-During the week, if you watch the videos by yourself, you can also join the discussion session only. Or skip it all together, given that you've worked on your own.
+As the name of the group suggests, I imagined that we'd gather around aperitivo time, so we could eat and drink at the same time. If you prefer to watch the videos alone, you can join the discussion session only. 
 
 ## How long will it take?
-It depends on how often we'd like to meet. I imagined a prefence towards a meeting every two weeks as once a week would probably be too demanding.  
+It depends on how often we'd like to meet. I thought that most people prefer to meet every two weeks as once a week would probably be too demanding. But we can decide together in the first meeting.
 
-The video sessions would take around 1h 30minutes each. We can restrict following discussion would take another 30minutes and have a two hours meeting scheduled every two weeks. In my opinion even just watching the videos would be sufficient. But during these two weeks, if you'd like to study the relevant chapter, i guess it might take another hour for you, depending on how deep you get involved with the material.
+The video sessions would take around 1h 30minutes each. We can restrict the following discussion to 30 minutes and have two-hour meetings. 
+I think even watching the videos only would be sufficient, but during these two weeks, if you study the relevant chapter, I guess it might take another hour for you, depending on how deeply you get involved with the material.
 
 ## Audience
 The book defines the target audience as:
 
-> The principle audience is researchers in the natural and social sciences, whether new PhD students or seasoned professionals, who have had a basic course on regression but nevertheless remain uneasy about statistial modelling.
+> The principal audience is researchers in the natural and social sciences, whether new PhD students or seasoned professionals, who have had a basic course on regression but nevertheless remain uneasy about statistical modeling.
 
-About the group, in principal you can refer to other people, like friends from other disciplines, as long as they respect the rules.
+Feel free to refer friends as long as they commit to the rules.
 
-b
+## The book
+The book is this one:
+
+McElreath, R. (2020). _Statistical rethinking: A Bayesian course with examples in R and Stan_. Chapman and Hall/CRC.
+
+Here is some more information about it: https://xcelab.net/rm/statistical-rethinking/
+
+It is an expensive book but feel free to send me an e-mail. I should have some extra copies of it.
+
