@@ -1,4 +1,4 @@
-# Statistical Rethinking Spritz
+![](spritzlogo.png)
 
 Hi there and thanks for your interest. In this study group, we will work on famous "Statistical Rethinking" book by Richard McElreath. It is a course on Bayesian Statistics (but with many insights regardless to the approach). In addition to the book itself, there is also a set of videos.
 
