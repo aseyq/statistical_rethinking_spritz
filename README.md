@@ -9,6 +9,9 @@ Besides that, we can **watch lecture videos together**. Most of them are between
 
 As the name of the group suggests, I imagined that we'd gather around aperitivo time, so we could eat and drink at the same time. If you prefer to watch the videos alone, you can join the discussion session only. 
 
+## When
+We can decide it together but I was thinking starting it after Christmas. Somewhere mid-january. 
+
 ## How long will it take?
 It depends on how often we'd like to meet. I thought that most people prefer to meet every two weeks as once a week would probably be too demanding. But we can decide together in the first meeting.
 
