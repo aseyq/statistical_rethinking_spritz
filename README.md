@@ -13,7 +13,7 @@ As the name of the group suggests, I imagined that we'd gather around aperitivo 
 We can decide it together but I was thinking starting it after Christmas. Probably sometime around mid/end-january can be good.
 
 ## How long will it take?
-It depends on how often we'd like to meet. I thought that most people prefer to meet every two weeks as once a week would probably be too demanding. But we can decide together in the first meeting.
+It depends on how often we'd like to meet. I thought that most people prefer to meet every two weeks as once a week would probably be too demanding. But we can decide together in the first meeting. See below for a plan.
 
 The video sessions would take around 1h 30minutes each. We can restrict the following discussion to 30 minutes and have two-hour meetings. 
 I think even watching the videos only would be sufficient, but during these two weeks, if you study the relevant chapter, I guess it might take another hour for you, depending on how deeply you get involved with the material.
