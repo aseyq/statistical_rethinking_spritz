@@ -77,7 +77,7 @@ We though the structure would be as the following:
 
 - **Problem set (~15 minutes)**: We select some questions from the problem set each week to solve it together. 
 
--**Plan for the next week** (~2 minutes): At the end of each session, one person can volunteer to be the **moderator** for the following week. Moderator would be responsible for: (1) selecting a few interesting questions from the set (2) send reminder emails (incl. the question numbers) (3) take care of the timing of the session (4) solve them in the problem session (or attemp). Note that unless you volunteer for it, you wouldn't be moderator and no pressure!
+- **Plan the following week** (~2 minutes): At the end of each session, one person can volunteer to be the **moderator** for the following week. Moderator would be responsible for: (1) selecting a few interesting questions from the set (2) send reminder emails (incl. the question numbers) (3) take care of the timing of the session (4) solve them in the problem session (or attemp). Note that unless you volunteer for it, you wouldn't be moderator and no pressure!
 
 ## Finally
 We believe that this would be a fun and rewarding journey. Looking forward to meet you!
