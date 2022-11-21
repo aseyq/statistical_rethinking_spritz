@@ -1,29 +1,26 @@
 ![](spritzlogo.png)
 
-Hi there, and thanks for your interest. In this study group, we will work on the famous "Statistical Rethinking" book by Richard McElreath. It is a course on Bayesian Statistics, but regardless of the methods, it contains valuable insights into how we think of data and science. In addition to the book, there is also a set of videos made publicly available by McElreath.
+Hi there, and thanks for your interest. In this study group, we will work on the famous "Statistical Rethinking" book by Richard McElreath. It is a course on Bayesian Statistics in its core. But regardless of the methodogical stance it has, it contains valuable insights into how we think of data and science. In addition to the book, there is also a set of videos made publicly available by McElreath.
 
 ## What will we do?
-**First of all, we'll keep each other accountable**. We all have busy schedules, and it is easy to sacrifice self-study hours when something more urgent comes up. So the first thing is to set a fixed schedule to study each chapter. And with a group of friends, it is much easier and fun to follow it.
+**First of all, we'll keep each other accountable**. And that's the main target. We all have busy schedules, and it is easy to sacrifice self-study hours when something more urgent comes up. So the first thing is to set a fixed schedule to study each chapter. And with a group of friends, it is much easier and fun to follow it. (And if you decide to join, you will get two weekly email reminders for your convenience.)
 
-Besides that, we can **watch lecture videos together**. Most of them are between 1h and 1h20mins. We can watch these over zoom, and then **discuss and solve some of the questions together** at the end of each chapter. 
+The bare minimum will be to watch a lecture video on your own once a week. Most of the videos are between 1h and 1h20mins. Ideally one would read the corresponding chapter of the book too, again individually. Then **discuss the chapter**, **ask questions if there is any**,and maybe **solve some of the questions together** at the end of each chapter. 
 
-As the name of the group suggests, I imagined that we'd gather around aperitivo time, so we could eat and drink at the same time. If you prefer to watch the videos alone, you can join the discussion session only. 
+As the name of the group suggests, I imagined that we'd gather around aperitivo time, so we could eat and drink at the same time. That would help us to save time a little bit. We thought 35 minutes for these meetings would be ideal.
 
-## When
+## When do we start?
 We can decide it together but I was thinking starting it after Christmas. Probably sometime around mid/end-january can be good.
 
-## How long will it take?
-It depends on how often we'd like to meet. I thought that most people prefer to meet every two weeks as once a week would probably be too demanding. But we can decide together in the first meeting. See below for a plan.
-
-The video sessions would take around 1h 30minutes each. We can restrict the following discussion to 30 minutes and have two-hour meetings. 
-I think even watching the videos only would be sufficient, but during these two weeks, if you study the relevant chapter, I guess it might take another hour for you, depending on how deeply you get involved with the material.
+## How may weeks will it take?
+Based on the videos, there will be 20 sessions. So it would take around 5 months in total.
 
 ## Audience
 The book defines its target audience as:
 
 > The principal audience is researchers in the natural and social sciences, whether new PhD students or seasoned professionals, who have had a basic course on regression but nevertheless remain uneasy about statistical modeling.
 
-So if you think you are one of those people, that's great! Feel free to refer friends as long as they commit to the meetings and the rules.
+So if you think you are one of those people, that's great! For the audience, we advertised it initally to a small number of friends to keep the size of the group managable. But feel free to refer friends as long as they commit to the meetings and the rules.
 
 ## The book
 The book is this one:
@@ -32,11 +29,10 @@ McElreath, R. (2020). _Statistical rethinking: A Bayesian course with examples i
 
 Here is some more information about it: https://xcelab.net/rm/statistical-rethinking/
 
-It is an expensive book but feel free to send me an e-mail. I should have some extra copies of it.
-
+It is an expensive book. If you are able to buy it, you can. But if you can't, feel free to send me an e-mail. I should have some extra copies of it. ;-)
 
 ## The plan
-I adapted Richard McElreath's [10 week course](https://github.com/rmcelreath/stat_rethinking_2022) and spread it over 20 meetings. If we meet once in every two weeks, the course would be spread over 40 weeks. (I know... Wicked math skills). 
+I adapted Richard McElreath's [10 week course](https://github.com/rmcelreath/stat_rethinking_2022) and spread it over 20 meetings. 
 
 | Session | Meeting date | Reading            | Lectures                                                                                                                                                                                                                      |
 | ------- | ------------ | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -60,3 +56,28 @@ I adapted Richard McElreath's [10 week course](https://github.com/rmcelreath/sta
 | 18      |              | Chapter 15         | [18] <[Missing Data](https://www.youtube.com/watch?v=oMiSb8GKR0o&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=18)> <[(Slides)](https://speakerdeck.com/rmcelreath/statistical-rethinking-2022-lecture-18)>                   |
 | 19      |              | Chapter 16         | [19] <[Beyond GLMs](https://www.youtube.com/watch?v=Doaod09YitA&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=19)> <[(Slides)](https://speakerdeck.com/rmcelreath/statistical-rethinking-2022-lecture-19)>                    |
 | 20      |              | Chapter 17         | [20] <[Horoscopes](https://www.youtube.com/watch?v=qV3eos7maGs&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=20)> <[(Slides)](https://speakerdeck.com/rmcelreath/statistical-rethinking-2022-lecture-20)>                     |
+
+## Rules
+Of course I can imagine the environment is going to be very friendly. But there will be a number of people involved, and in order to not to waste others' time, we discused some ground rules. Of coure they are likely to change organically as we go further. And feel free to suggest additions/modifications.
+
+Here is the draft of the rules:
+**1. Punctual Start and Stop:** We would start right at the determined time. We wouldn't wait anyone to start or spend time on chit-chatting after the scheduled time. Similarly we would stop at the given time in order to not to discourage those who have a very limited time. But of course you can join late and catch-up by yourself. And of course and you can show up early for how are you's, and have chitty chatty fun at the end of the sessions, and finish your drinks or get another one. In the end it's a social event.
+
+**2. No off-topic conversations:** With a friendly atmosphere, it is tempting to talk about other stuff or throw some jokes in to the material. (The videos contain a lot of them!) Moreover, I am sure the topics would trigger a lot of great ideas. But during the scheduled time, we should focus on the material during the session. After the session would be a proper time for off topic discussions.
+
+**3. Self-commitment:** It is all about commitment, but if you didn't have time to watch the relevant video or the chapter, of course you are welcomed for the session. But if you are asking a question, or clarification about the material, you are expected to have worked out on the question on your own before.
+
+**4. Have fun:** Even though we have to have a rigit structure, in the end its about fun. And curiosity and learning is a part of fun. But you can enhance your intellectual fun with some food and drinks. 
+
+## Meeting Structure
+
+We though the structure would be as the following:
+- **Questions and Discussion** (~10 minutes): Here we'd answer each others' questions and discuss the materials. 
+- **R Code** (~18 minutes): The book contains a lot of R codes as demonstration and as questions. We can go through some of them and we can code together. I (ali) am volunteering to share my screen and live code it on the go. But if anyone volunteers for some weeks, that would be more than welcomed.
+
+- **Problem set (~15 minutes)**: We select some questions from the problem set each week to solve it together. 
+
+-**Plan for the next week** (~2 minutes): At the end of each session, one person can volunteer to be the **moderator** for the following week. Moderator would be responsible for: (1) selecting a few interesting questions from the set (2) send reminder emails (incl. the question numbers) (3) take care of the timing of the session (4) solve them in the problem session (or attemp). Note that unless you volunteer for it, you wouldn't be moderator and no pressure!
+
+## Finally
+We believe that this would be a fun and rewarding journey. Looking forward to meet you!
