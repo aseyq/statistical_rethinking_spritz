@@ -81,3 +81,10 @@ We though the structure would be as the following:
 
 ## Finally
 We believe that this would be a fun and rewarding journey. Looking forward to meet you!
+
+# Updates
+### 11 December 2022
+- So far we are 7: AC, AK, AS, CD, PR, SB, SH. (Just the initials because its a public repo)
+- I will email you within this week. 
+- AC suggested we do meeting better in working hours.
+- AK suggested that we have a meeting in January to determine that.
