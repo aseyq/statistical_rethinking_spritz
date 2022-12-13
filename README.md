@@ -85,7 +85,7 @@ We believe that this would be a fun and rewarding journey. Looking forward to me
 
 # Updates
 ### 11 December 2022
-- So far we are 7: AC, AK, AS, CD, PR, SB, SH. (Just the initials because its a public repo)
-- I will email you within this week. 
+- So far we are 9, and more potential participants. Feel free to spread the word.
+- If you recurited to our cult, please drop me an email so I can add those to the email list. I will email you this weekend. (~17 December)
 - AC suggested we do meeting better in working hours.
-- AK suggested that we have a meeting in January to determine that.
+- AK suggested that we have a meeting in January to set the regular meeting time and schedule.
