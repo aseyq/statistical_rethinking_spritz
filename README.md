@@ -7,7 +7,7 @@ Hi there, and thanks for your interest. In this study group, we will work on the
 
 The bare minimum will be to watch a lecture video on your own once a week. Most of the videos are between 1h and 1h20mins. Ideally one would read the corresponding chapter of the book too, again individually. Then **discuss the chapter**, **ask questions if there is any**,and maybe **solve some of the questions together** at the end of each chapter. 
 
-As the name of the group suggests, I imagined that we'd gather around aperitivo time, so we could eat and drink at the same time. That would help us to save time a little bit. We thought 35 minutes for these meetings would be ideal.
+As the name of the group suggests, I imagined and some suggested that we'd gather around aperitivo time, so we could eat and drink at the same time. Some people suggested that it should be during working hours as they have other commitments. Probably we can find a sweet spot to accomodate both camps. We thought 35 minutes for these meetings would be ideal.
 
 ## When do we start?
 We can decide it together but I was thinking starting it after Christmas. Probably sometime around mid/end-january can be good.
