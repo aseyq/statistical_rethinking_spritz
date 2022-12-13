@@ -60,7 +60,8 @@ I adapted Richard McElreath's [10 week course](https://github.com/rmcelreath/sta
 ## Rules
 Of course I can imagine the environment is going to be very friendly. But there will be a number of people involved, and in order to not to waste others' time, we discused some ground rules. Of coure they are likely to change organically as we go further. And feel free to suggest additions/modifications.
 
-Here is the draft of the rules:
+Here is a draft of the rules:
+
 **1. Punctual Start and Stop:** We would start right at the determined time. We wouldn't wait anyone to start or spend time on chit-chatting after the scheduled time. Similarly we would stop at the given time in order to not to discourage those who have a very limited time. But of course you can join late and catch-up by yourself. And of course and you can show up early for how are you's, and have chitty chatty fun at the end of the sessions, and finish your drinks or get another one. In the end it's a social event.
 
 **2. No off-topic conversations:** With a friendly atmosphere, it is tempting to talk about other stuff or throw some jokes in to the material. (The videos contain a lot of them!) Moreover, I am sure the topics would trigger a lot of great ideas. But during the scheduled time, we should focus on the material during the session. After the session would be a proper time for off topic discussions.
