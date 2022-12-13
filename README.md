@@ -1,6 +1,6 @@
 ![](spritzlogo.png)
 
-Hi there, and thanks for your interest. In this study group, we will work on the famous "Statistical Rethinking" book by Richard McElreath. It is a course on Bayesian Statistics in its core. But regardless of the methodogical stance it has, it contains valuable insights into how we think of data and science. In addition to the book, there is also a set of videos made publicly available by McElreath.
+Hi there, and thanks for your interest. In this study group, we will work on the acclaimed "Statistical Rethinking" book by Richard McElreath. It is a course on Bayesian Statistics in its core. But regardless of the methodogical stance it has, it contains valuable insights into how we think of data and science. In addition to the book, there is also a set of videos made publicly available by McElreath.
 
 ## What will we do?
 **First of all, we'll keep each other accountable**. And that's the main target. We all have busy schedules, and it is easy to sacrifice self-study hours when something more urgent comes up. So the first thing is to set a fixed schedule to study each chapter. And with a group of friends, it is much easier and fun to follow it. (And if you decide to join, you will get two weekly email reminders for your convenience.)
