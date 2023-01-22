@@ -1,26 +1,28 @@
+## Updates
+
 ![](spritzlogo.png)
 
 Hi there, and thanks for your interest. In this study group, we will work on the acclaimed "Statistical Rethinking" book by Richard McElreath. It is a course on Bayesian Statistics in its core. But regardless of the methodogical stance it has, it contains valuable insights into how we think of data and science. In addition to the book, there is also a set of videos made publicly available by McElreath.
 
 ## What will we do?
-**First of all, we'll keep each other accountable**. And that's the main target. We all have busy schedules, and it is easy to sacrifice self-study hours when something more urgent comes up. So the first thing is to set a fixed schedule to study each chapter. And with a group of friends, it is much easier and fun to follow it. (And if you decide to join, you will get two weekly email reminders for your convenience.)
+**First of all, we'll keep each other accountable**. And that's the main target. We all have busy schedules, and it is easy to sacrifice self-study hours when something more urgent comes up. So the first thing is to set a fixed schedule to study each chapter. And with a group of friends, it is much easier and fun to follow it. (And if you decide to join, you will get weekly email reminders for your convenience.)
 
 The bare minimum will be to watch a lecture video on your own once a week. Most of the videos are between 1h and 1h20mins. Ideally one would read the corresponding chapter of the book too, again individually. Then **discuss the chapter**, **ask questions if there is any**,and maybe **solve some of the questions together** at the end of each chapter. 
 
-As the name of the group suggests, I imagined and some suggested that we'd gather around aperitivo time, so we could eat and drink at the same time. Some people suggested that it should be during working hours as they have other commitments. Probably we can find a sweet spot to accomodate both camps. We thought 35 minutes for these meetings would be ideal.
+As the name of the group suggests, I imagined and some suggested that we'd gather around aperitivo time, so we could eat and drink at the same time. Some people suggested that it should be during working hours as they have other commitments after work (or have a life of their own. congrats). Probably we can find a sweet spot to accomodate both camps. We thought ~35 minutes for these meetings would be ideal.
 
 ## When do we start?
-We can decide it together but I was thinking starting it after Christmas. Probably sometime around mid/end-january can be good.
+We can decide it together but I was thinking starting it after Christmas. ~~Probably sometime around mid/end-january can be good.~~
 
 ## How may weeks will it take?
-Based on the videos, there will be 20 sessions. So it would take around 5 months in total.
+Based on the videos, there will be 20 sessions. So it would take around ~2.5 months in total.
 
 ## Audience
 The book defines its target audience as:
 
 > The principal audience is researchers in the natural and social sciences, whether new PhD students or seasoned professionals, who have had a basic course on regression but nevertheless remain uneasy about statistical modeling.
 
-So if you think you are one of those people, that's great! For the audience, we advertised it initally to a small number of friends to keep the size of the group managable. But feel free to refer friends as long as they commit to the meetings and the rules.
+I haven't really read the book completely but I suspect some parts might be too obvious and easy for some while some parts might be challenging for most. Nevertheless, my impression is, it is very valuable for anyone who works with data. So if you think you are one of those people, that's great! For the audience, we advertised it initally to a small number of friends to keep the size of the group managable. But feel free to refer friends as long as they commit to the meetings and the rules.
 
 ## The book
 The book is this one:
@@ -84,6 +86,9 @@ We though the structure would be as the following:
 We believe that this would be a fun and rewarding journey. Looking forward to meet you!
 
 # Updates
+### 22 January 2023
+You should be getting an email.
+
 ### 11 December 2022
 - So far we are 9, and more potential participants. Feel free to spread the word.
 - If you recurited to our cult, please drop me an email so I can add those to the email list. I will email you this weekend. (~17 December)
