@@ -15,7 +15,7 @@ As the name of the group suggests, I imagined and some suggested that we'd gathe
 We can decide it together but I was thinking starting it after Christmas. ~~Probably sometime around mid/end-january can be good.~~
 
 ## How may weeks will it take?
-Based on the videos, there will be 20 sessions. So it would take around ~2.5 months in total.
+Based on the videos, there will be 20 "sessions". The original course is 10 weeks. But since we are busy people, i'd asssume watching one video per week, rather than two would be a more managable commitment. But I assume some chapters we can go through together/faster. So I'd expect to finish all between 10 to 20 weeks, i.e. 2.5 to 5 months (wicked math skills).
 
 ## Audience
 The book defines its target audience as:
@@ -31,10 +31,10 @@ McElreath, R. (2020). _Statistical rethinking: A Bayesian course with examples i
 
 Here is some more information about it: https://xcelab.net/rm/statistical-rethinking/
 
-It is an expensive book. If you are able to buy it, you can. But if you can't, feel free to send me an e-mail. I should have some extra copies of it. ;-)
+It is an expensive book. If you are able to buy it, you can. But feel free to send me an e-mail. I should have some extra copies of it. ;-)
 
 ## The plan
-I adapted Richard McElreath's [10 week course](https://github.com/rmcelreath/stat_rethinking_2022) and spread it over 20 meetings. 
+I adapted Richard McElreath's [10 week course](https://github.com/rmcelreath/stat_rethinking_2022) and spread it over 20 sessions.
 
 | Session | Meeting date | Reading            | Lectures                                                                                                                                                                                                                      |
 | ------- | ------------ | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -87,10 +87,9 @@ We believe that this would be a fun and rewarding journey. Looking forward to me
 
 # Updates
 ### 22 January 2023
-You should be getting an email.
+I've sent you an e-mail. Check your spam folders.
 
 ### 11 December 2022
-- So far we are 9, and more potential participants. Feel free to spread the word.
 - If you recurited to our cult, please drop me an email so I can add those to the email list. I will email you this weekend. (~17 December)
 - AC suggested we do meeting better in working hours.
 - AK suggested that we have a meeting in January to set the regular meeting time and schedule.
