@@ -1,5 +1,8 @@
 ## Quick access
 - [Youtube playlist](https://youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus)
+- [McElreath Repo for R](https://github.com/rmcelreath/rethinking/)
+- [McElreath Repo for 2023 Course](https://github.com/rmcelreath/stat_rethinking_2023)
+
 ## Updates
 
 ![](spritzlogo.png)
