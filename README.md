@@ -1,3 +1,5 @@
+## Quick access
+- [Youtube playlist](https://youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus)
 ## Updates
 
 ![](spritzlogo.png)
