@@ -9,7 +9,7 @@
 
 
 # Updates
-### 31 January 2023 - Welcome meeting
+### 31 January 2023 16:00 - Welcome meeting
 ### 22 January 2023
 I've sent you an e-mail. Check your spam folders.
 
