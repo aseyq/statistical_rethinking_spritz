@@ -7,6 +7,17 @@
 
 ![](spritzlogo.png)
 
+
+# Updates
+### 22 January 2023
+I've sent you an e-mail. Check your spam folders.
+
+### 11 December 2022
+- If you recurited to our cult, please drop me an email so I can add those to the email list. I will email you this weekend. (~17 December)
+- AC suggested we do meeting better in working hours.
+- AK suggested that we have a meeting in January to set the regular meeting time and schedule.
+
+
 Hi there, and thanks for your interest. In this study group, we will work on the acclaimed "Statistical Rethinking" book by Richard McElreath. It is a course on Bayesian Statistics in its core. But regardless of the methodogical stance it has, it contains valuable insights into how we think of data and science. In addition to the book, there is also a set of videos made publicly available by McElreath.
 
 ## What will we do?
@@ -90,11 +101,3 @@ We though the structure would be as the following:
 ## Finally
 We believe that this would be a fun and rewarding journey. Looking forward to meet you!
 
-# Updates
-### 22 January 2023
-I've sent you an e-mail. Check your spam folders.
-
-### 11 December 2022
-- If you recurited to our cult, please drop me an email so I can add those to the email list. I will email you this weekend. (~17 December)
-- AC suggested we do meeting better in working hours.
-- AK suggested that we have a meeting in January to set the regular meeting time and schedule.
