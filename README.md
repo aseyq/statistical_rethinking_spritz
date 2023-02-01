@@ -14,7 +14,8 @@
 
 
 # Updates
-### 31 January 2023 16:00 - Welcome meeting
+### 31 January 2023 
+Meeting notes
 - We decided to meet on Thursdays at 17.00
 - Ali is the moderator for the first meeting.
 - Still you can spread the word.
