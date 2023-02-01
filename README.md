@@ -56,26 +56,26 @@ I adapted Richard McElreath's [10 week course](https://github.com/rmcelreath/sta
 
 | Session | Meeting date | Reading            | Video                                                                     |
 |---------|--------------|--------------------|---------------------------------------------------------------------------|
-| 01      | 9 Feb 2023   | Chapter 1          | [1] <[The Golem of Prague](https://www.youtube.com/watch?v=FdnMWdICdRs)>  |
-| 02      |              | Chapters 2 and 3   | [2] <[Bayesian Inference]>                                                |
-| 03      |              | Chapter 4          | [3] <[Basic Regression]>                                                   |
-| 04      |              | Chapter 5          | [4] <[Categories & Curves]>                                                |
-| 05      |              | Chapter 6          | [5] <[Elemental Confounds]>                                                |
-| 06      |              | Chapter 6          | [6] <[Good & Bad Controls >                                                |
-| 07      |              | Chapters 7, 8      | [7] <[Overfitting]>                                                        |
-| 08      |              | Chapter 9          | [8] <[Markov chain Monte Carlo >                                           |
-| 09      |              | Chapters 10 and 11 | [9] <[Logistic and Binomial GLMs >                                         |
-| 10      |              | Chapter 11         | [10] <[Sensitivity and Poisson GLMs >                                      |
-| 11      |              | Chapter 12         | [11] <[Ordered Categories]>                                                |
-| 12      |              | Chapter 13         | [12] <[Multilevel Models]>                                                 |
-| 13      |              | Chapter 13         | [13] <[Multi-Multilevel Models]>                                           |
-| 14      |              | Chapter 14         | [14] <[Correlated varying effects >                                        |
-| 15      |              | Chapter 14         | [15] <[Social Networks]>                                                   |
-| 16      |              | Chapter 14         | [16] <[Gaussian Processes]>                                                |
-| 17      |              | Chapter 15         | [17] <[Measurement Error]>                                                 |
-| 18      |              | Chapter 15         | [18] <[Missing Data]>                                                      |
-| 19      |              | Chapter 16         | [19] <[Beyond GLMs]>                                                       |
-| 20      |              | Chapter 17         | [20] <[Horoscopes]>                                                        |
+| 01      | 9 Feb   | Chapter 1          | [1] <[The Golem of Prague](https://www.youtube.com/watch?v=FdnMWdICdRs)>  |
+| 02      | 16 Feb  | Chapters 2 and 3   | [2] <[Bayesian Inference]>                                                | 
+| 03      | 23 Feb  | Chapter 4          | [3] <[Basic Regression]>                                                   |
+| 04      | 2 Mar   | Chapter 5          | [4] <[Categories & Curves]>                                                |
+| 05      | 9 Mar   | Chapter 6          | [5] <[Elemental Confounds]>                                                |
+| 06      | 15 Mar  | Chapter 6          | [6] <[Good & Bad Controls] >                                                |
+| 07      | 23 Mar  | Chapters 7, 8      | [7] <[Overfitting]>                                                        |
+| 08      | 29 Mar  | Chapter 9          | [8] <[Markov chain Monte Carlo] >                                           |
+| 09      |         | Chapters 10 and 11 | [9] <[Logistic and Binomial GLMs] >                                         |
+| 10      |         | Chapter 11         | [10] <[Sensitivity and Poisson GLMs] >                                      |
+| 11      |         | Chapter 12         | [11] <[Ordered Categories]>                                                |
+| 12      |         | Chapter 13         | [12] <[Multilevel Models]>                                                 |
+| 13      |         | Chapter 13         | [13] <[Multi-Multilevel Models]>                                           |
+| 14      |         | Chapter 14         | [14] <[Correlated varying effects] >                                        |
+| 15      |         | Chapter 14         | [15] <[Social Networks]>                                                   |
+| 16      |         | Chapter 14         | [16] <[Gaussian Processes]>                                                |
+| 17      |         | Chapter 15         | [17] <[Measurement Error]>                                                 |
+| 18      |         | Chapter 15         | [18] <[Missing Data]>                                                      |
+| 19      |         | Chapter 16         | [19] <[Beyond GLMs]>                                                       |
+| 20      |         | Chapter 17         | [20] <[Horoscopes]>                                                        |
 
 
 ## Rules
