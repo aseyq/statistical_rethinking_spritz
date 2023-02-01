@@ -7,7 +7,7 @@
 - [McElreath Repo for 2023 Course](https://github.com/rmcelreath/stat_rethinking_2023)
 
 
-## First Meeting: 9 February 2023, Thursday 17:00-17:30
+## Next Meeting: 9 February 2023, Thursday 17:00-17:30
 - Video (51 minutes): https://www.youtube.com/watch?v=FdnMWdICdRs
 - Slides: https://speakerdeck.com/rmcelreath/statistical-rethinking-2023-lecture-01
 - Book Chapter: Chapter 1 - The Golem of Prague
