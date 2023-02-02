@@ -10,7 +10,9 @@
 ## Next Meeting: 9 February 2023, Thursday 17:00-17:30
 - Video (51 minutes): https://www.youtube.com/watch?v=FdnMWdICdRs
 - Slides: https://speakerdeck.com/rmcelreath/statistical-rethinking-2023-lecture-01
-- Book Chapter: Chapter 1 - The Golem of Prague
+- Book: Chapter 1 - The Golem of Prague
+- Assignment: None
+- Moderator of the week: Ali
 
 
 # Updates
@@ -18,7 +20,7 @@
 Meeting notes
 - We decided to meet on Thursdays at 17.00
 - Ali is the moderator for the first meeting.
-- Still you can spread the word.
+
 
 # About this community
 Hi there, and thanks for your interest. In this study group, we will work on the acclaimed "Statistical Rethinking" book by Richard McElreath. It is a course on Bayesian Statistics in its core. But regardless of the methodogical stance it has, it contains valuable insights into how we think of data and science. In addition to the book, there is also a set of videos made publicly available by McElreath.
