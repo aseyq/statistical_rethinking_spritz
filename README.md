@@ -88,11 +88,11 @@ Here is a draft of the rules:
 
 **1. Punctual Start and Stop:** We would start right at the determined time. We won't be able to wait for anyone to join or spend time on chit-chatting after the scheduled time. Similarly we would stop at the given time in order to not to discourage those who have a very limited time. But of course you can join late and catch-up by yourself. Moreover, of course and you can show up early for a little friendly chit-chat, or stay after the sessions.
 
-**2. No off-topic conversations:** With a friendly atmosphere, it is tempting to talk about other stuff or throw some jokes in to the material. (The videos contain a lot of them!) Moreover, I am sure the topics would trigger a lot of great ideas. But during the scheduled time, we should focus on the material during the session. After the session would be a proper time for off topic discussions.
+**2. No off-topic conversations:** With a friendly atmosphere, it is tempting to talk about other stuff or throw some jokes in to the material. (The videos contain a lot of them!) But during the scheduled time, we should focus on the material. After the session would the a proper time for an off-topic discussions.
 
 **3. Self-commitment:** It is all about commitment, but if you didn't have time to watch the relevant video or the chapter, of course you are welcomed for the session. But if you are asking a question, or clarification about the material, you are expected to have worked out on the question on your own before.
 
-**4. Have fun:** Even though we have to have a rigit structure, in the end its about fun. And curiosity and learning is a part of fun. But you can enhance your intellectual fun with some food and drinks. 
+**4. Have fun:** Even though we have to have a rigid structure, in the end its about fun. And curiosity and learning is a part of fun. But you can enhance your intellectual fun with some food and drinks. 
 
 ## Meeting Structure
 
