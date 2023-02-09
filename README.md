@@ -5,9 +5,15 @@
 - [Youtube playlist](https://youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus)
 - [McElreath Repo for R](https://github.com/rmcelreath/rethinking/)
 - [McElreath Repo for 2023 Course](https://github.com/rmcelreath/stat_rethinking_2023)
+## Next Meeting: 16 February 2023, Thursday, 17:00
+- Video: https://www.youtube.com/watch?v=R1vcdhPBlXA
+- Slides:https://speakerdeck.com/rmcelreath/statistical-rethinking-2023-lecture-02
+- Book: Chapter 2 - Small Worlds and Large Worlds
+- Assignents: TBA
+- Moderator of the week: Ali
+- Link for the live text: TBA
 
-
-## Next Meeting: 9 February 2023, Thursday 17:00-17:30
+## Next Meeting: 9 February 2023, Thursday 17:00
 - Video (51 minutes): https://www.youtube.com/watch?v=FdnMWdICdRs
 - Slides: https://speakerdeck.com/rmcelreath/statistical-rethinking-2023-lecture-01
 - Book: Chapter 1 - The Golem of Prague
