@@ -13,7 +13,10 @@
 - Moderator of the week: Ali
 - Link for the live text: TBA
 
-## Next Meeting: 9 February 2023, Thursday 17:00
+
+# Updates
+
+## Meeting 1: 9 February 2023, Thursday 17:00
 - Video (51 minutes): https://www.youtube.com/watch?v=FdnMWdICdRs
 - Slides: https://speakerdeck.com/rmcelreath/statistical-rethinking-2023-lecture-01
 - Book: Chapter 1 - The Golem of Prague
@@ -22,9 +25,7 @@
 - Link for the live text: https://hackmd.io/@aseyq/rJqezZu3s
 
 
-# Updates
-### 31 January 2023 
-Meeting notes
+### Meeting 0: 31 anuary 2023
 - We decided to meet on Thursdays at 17.00
 - Ali is the moderator for the first meeting.
 
