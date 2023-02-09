@@ -13,6 +13,7 @@
 - Book: Chapter 1 - The Golem of Prague
 - Assignment: None
 - Moderator of the week: Ali
+- Link for the live text: https://hackmd.io/qRbozLGGSeiKpDe1kAbR9g
 
 
 # Updates
