@@ -1,0 +1,237 @@
+---
+title: "Statistical Rethinking - Week 2.1 - Small Worlds and Large World"
+output: html_document
+date: '2023-02-16'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+We have a bag with four marbles (or a globe with four sides, if you wish). We don't know how many are of each color.  
+W: Water  L: Land
+
+|         |           |
+|---------|-----------|
+|0. ⚫⚫⚫⚫  | 0% water  |
+|1. ⚪⚫⚫⚫  | 25% water |
+|2. ⚪⚪⚫⚫  | 50% water |
+|3. ⚪⚪⚪⚫  | 75% water |
+|4. ⚪⚪⚪⚪  | 100% water|
+
+Observation: WLW
+
+Let's get the number of ways for each $p$ (proportion of water) can produce the observation. 
+
+```{r}
+# get ways for given p, number of W and number of L
+get_ways <- function(p, numW, numL) {
+  ways <- (4 * p)^numW * (4-4*p)^numL
+  return(ways)
+}
+```
+
+Let's test it: Give me number of ways 75% water can give 2 W and 1 L.
+```{r}
+get_ways(p=0.75, numW=2, numL=1)
+```
+
+
+Now let's apply it for all possible probabilities in our 4 sided world:
+```{r}
+p<-c(0, 0.25, 0.50, 0.75,1)
+sapply(p, get_ways, numW=2, numL=1)
+```
+
+And let's create the table
+```{r}
+ways <- sapply(p, get_ways, numW=2, numL=1)
+prob <- ways/sum(ways)
+data.frame(p, ways, prob)
+```
+
+
+Good. We have the values. Now, let's generalize it and turn it to a function that gets the data and p values as input and gives us the same table as output.
+
+
+```{r}
+compute_posterior <- function(my_sample, p) {
+  W <- sum(my_sample == "W")
+  L <- sum(my_sample == "L")
+  
+  ways <- sapply(p, get_ways, numW=W, numL=L)
+  post <- ways/sum(ways)
+  data.frame(p, ways, post)
+}
+
+compute_posterior(c("W", "L", "W"), p=p)
+```
+
+Let's try it with a new observation
+```{r}
+compute_posterior(c("W", "L", "W","W"), p=p)
+```
+
+```{r}
+posterior<- compute_posterior(c("W", "L", "W","W"), p=p)
+
+ggplot(posterior, aes(y=post, x=as.factor(p))) +
+  geom_col() 
+```
+
+## Moving to continuous world
+Now instead of four sides, let's move to a continuous word, where possible values of p are from 0 to 1.
+
+
+### Method 1 - Grid Approximation
+In this method, we pick some p values in an equal space. Normally the grid size would be much larger but for demonstration let's pick with intervals of 0.1
+
+```{r}
+p_grid <- c(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1)
+```
+
+Since we don't have any specific assumptions about the world we are, let's get the prior as 1 at each point. 
+```{r}
+prior <- c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
+```
+
+### Building our new, continuous `get_ways()` function.
+```{r}
+get_ways_grid <- function(p, numW, numL) {
+  # more like a likelihood but same spirit
+  # refer to page 33, or you can use dbinom(numW, numW+numL, p)
+  
+  likelihood <-(factorial(numW+numL)/(factorial(numW)*factorial(numL))) * (p^numW * (1-p)^numL)
+return(likelihood)
+  
+}
+
+```
+
+Now let's test it:
+```{r}
+get_ways_grid(p=0.5, 2,1)
+```
+
+```{r}
+compute_posterior_grid <- function(my_sample, prior, p) {
+  W <- sum(my_sample == "W")
+  L <- sum(my_sample == "L")
+  
+  # likelihood for each grid value
+  likelihood <- sapply(p_grid, get_ways_grid, numW=W, numL=L)
+  
+  unstandardized_posterior <- likelihood * prior
+  ## normalize posterior so they sum up to 1
+  posterior <- unstandardized_posterior / sum(unstandardized_posterior)
+  return(posterior)
+}
+```
+
+```{r}
+observation <- c("W", "L", "W")
+prior <- c(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)
+p_grid <- c(0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1)
+posterior_grid <-compute_posterior_grid(observation, prior=prior, p_grid)
+print(posterior_grid)
+```
+```{r}
+plot(p_grid, posterior_grid, "b")
+```
+
+
+## Method 2 - The Analytical Approach
+Using mathematial derivation, we will get the exact posterior, instead of approxmating it. Note that in real cases, we cannot often do that. 
+
+We we will use the **beta** distribution for that. (You can take a ook at the derivation here: https://www.youtube.com/watch?v=46Ym07yKf4A)
+
+```{r}
+## Note that this is true for the "unassuming" prior.
+compute_posterior_analytical <-function(my_sample, p_values) {
+  W <- sum(my_sample == "W")
+  L <- sum(my_sample == "L")
+  
+  posterior <- dbeta(p_values, W+1, L+1)
+  return(posterior)
+}
+
+## We can c
+p_values <- seq(0,1,0.01) # we can be generous here
+posterior_analytical <- compute_posterior_analytical(c("W","L","W"), p_values)
+```
+```{r}
+plot(p_values, posterior_analytical,"l")
+```
+
+
+## Assignment 
+
+### Problem 1 - Suppose the globe tossing data had turned out to be 4 water and 11 land. Construct the posterior distribution.
+
+We can directly get the analytical answer using beta distribution
+```{r}
+  curve(dbeta(x, 4+1, 11+1), from=0, to=1)
+```
+
+And we can get the answer also with our grid approx. function. Let's first create our observation.
+```{r}
+observation <- c(rep("W", 4), rep("L", 11))
+print(observation)
+```
+
+Now let's use our grid approximation function: 
+```{r}
+p_grid <- seq(0,1,0.01)
+prior <- rep(1, length(p_grid)) # we would like to create 1 as prior for each p value
+posterior_grid <- compute_posterior_grid(observation, prior, p_grid)
+
+plot(p_grid, posterior_grid, "b")
+```
+
+### Problem 2 - Using the posterior distribution from 1, compute the posterior predictive distribution for the next 5 tosses of the same globe. 
+
+Analytical way:
+
+```{r}
+# Get a sample of p values
+p_samples <- rbeta(1000, 4+1, 11+1)
+ 
+# For each p value, draw 5 samples
+W_sim_an <- rbinom(1000, 5, p=p_samples)
+
+
+plot(table(W_sim_an))
+
+```
+
+
+Grid approximation:
+
+```{r}
+# Sample from p values, given their probabilities (posterior)
+p_samples <- sample(p_grid, 1000, prob=posterior_grid, replace=TRUE)
+ 
+# For each p value, draw 5 samples
+W_sim_grid <- rbinom(1000, 5, p=p_samples)
+
+
+plot(table(W_sim_grid))
+
+```
+### Problem 3 - Use the posterior predictive distribution from 2 to calculate the probability of 3 or more water samples in the next 5 tosses.
+
+Now I can use the samples I draw.
+
+Analytical way:
+
+```{r}
+sum(W_sim_an >=3) / length(W_sim_an)
+```
+
+Grid approximation:
+
+```{r}
+sum(W_sim_grid >=3) / length(W_sim_grid)
+```
+
