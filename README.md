@@ -9,7 +9,7 @@
 ## Next Meeting: 23 February 2023, Thursday, 17:00
 -	Video - Lecture 3: https://www.youtube.com/watch?v=tNOu-SEacNU 
 -	Book: Chapter 4 – Geocentric models (half of it, I suppose)
-- Assignents: TBA
+- Assigment: TBA
 - Moderator of the week: Sergiu
 
 
