@@ -5,19 +5,26 @@
 - [Youtube playlist](https://youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus)
 - [McElreath Repo for R](https://github.com/rmcelreath/rethinking/)
 - [McElreath Repo for 2023 Course](https://github.com/rmcelreath/stat_rethinking_2023)
-## Next Meeting: 16 February 2023, Thursday, 17:00
-- Video: https://www.youtube.com/watch?v=R1vcdhPBlXA
+
+## Next Meeting: 23 February 2023, Thursday, 17:00
+-	Video - Lecture 3: https://www.youtube.com/watch?v=tNOu-SEacNU 
+-	Book: Chapter 4 – Geocentric models (half of it, I suppose)
+- Assignents: TBA
+- Moderator of the week: Sergiu
+
+
+# Past Meetings/Updates
+## Meeting 2
+- Here is the (cleaned-up) Rmarkdown file of the solutions: https://rpubs.com/aseyq/rethinking_week2
+- And here is the video that I mentioned talking about the connection of binomial and beta: https://www.youtube.com/watch?v=46Ym07yKf4A
+
+- Video - Lecture 2: https://www.youtube.com/watch?v=R1vcdhPBlXA
 - Slides:https://speakerdeck.com/rmcelreath/statistical-rethinking-2023-lecture-02
 - Book: Chapter 2 - Small Worlds and Large Worlds
-- Assignents: TBA
-- Moderator of the week: Ali
-- Link for the live text: TBA
 
-
-# Updates
 
 ## Meeting 1: 9 February 2023, Thursday 17:00
-- Video (51 minutes): https://www.youtube.com/watch?v=FdnMWdICdRs
+- Video - Lecture 1: https://www.youtube.com/watch?v=FdnMWdICdRs
 - Slides: https://speakerdeck.com/rmcelreath/statistical-rethinking-2023-lecture-01
 - Book: Chapter 1 - The Golem of Prague
 - Assignment: None
