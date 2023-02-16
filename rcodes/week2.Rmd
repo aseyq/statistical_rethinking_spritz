@@ -12,8 +12,8 @@ library(ggplot2)
 We have a bag with four marbles (or a globe with four sides, if you wish). We don't know how many are of each color.  
 W: Water  L: Land
 
-|         |           |
-|---------|-----------|
+|               |           |
+|---------------|-----------|
 |0. ⚫⚫⚫⚫  | 0% water  |
 |1. ⚪⚫⚫⚫  | 25% water |
 |2. ⚪⚪⚫⚫  | 50% water |
