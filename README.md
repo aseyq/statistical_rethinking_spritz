@@ -13,7 +13,7 @@
 - Assignment: Q3 of https://github.com/rmcelreath/stat_rethinking_2023/blob/main/homework/week02.pdf
 
 # Past Meetings/Updates
-## Meeting: 3
+## Meeting 3
 -	Video: https://www.youtube.com/watch?v=tNOu-SEacNU 
 -	Book: Chapter 4 – Geocentric models (half of it, I suppose)
 - Moderator of the week: Sergiu
