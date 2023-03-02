@@ -6,13 +6,20 @@
 - [McElreath Repo for R](https://github.com/rmcelreath/rethinking/)
 - [McElreath Repo for 2023 Course](https://github.com/rmcelreath/stat_rethinking_2023)
 
-## Next Meeting: 2 March 2023, Thursday, 17:00
+# Next Meeting
+- Video: https://www.youtube.com/watch?v=mBEA7PKDmiY
+- Book: Chapter 5
+- Moderator of the week: Ali
+- Assignment: Q3 of https://github.com/rmcelreath/stat_rethinking_2023/blob/main/homework/week03.pdf (probably half of it)
+
+# Past Meetings/Updates
+## Meeting 4: 2nd March 2023
 - Video: https://www.youtube.com/watch?v=F0N4b7K_iYQ
 - Book: Chapter 4 (contd.)
 - Moderator of the week: TBA
 - Assignment: Q3 of https://github.com/rmcelreath/stat_rethinking_2023/blob/main/homework/week02.pdf
+- Mod Solutions: https://rpubs.com/aseyq/rethinking_week4
 
-# Past Meetings/Updates
 ## Meeting 3
 -	Video: https://www.youtube.com/watch?v=tNOu-SEacNU 
 -	Book: Chapter 4 – Geocentric models (half of it, I suppose)
