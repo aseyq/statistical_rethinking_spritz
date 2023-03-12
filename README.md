@@ -6,7 +6,7 @@
 - [McElreath Repo for R](https://github.com/rmcelreath/rethinking/)
 - [McElreath Repo for 2023 Course](https://github.com/rmcelreath/stat_rethinking_2023)
 
-# Next Meeting
+# Next Meeting: 16 March 2023, 17:00
 
 - Video: https://www.youtube.com/watch?v=uanZZLlzKHw
 - Book: Chapter 6
