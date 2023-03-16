@@ -1,0 +1,211 @@
+---
+title: "Lecture 5: Elemental Confounds"
+output: html_document
+date: "2023-03-09"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=TRUE, warning=FALSE, message=FALSE}
+library(rethinking)
+library(tidyverse)
+theme_set(theme_bw())
+```
+# Fork: X ← Z → Y
+Z is common cause for both X and Y. 
+```{r}
+n <- 300
+Z <- rbern(n, 0.5)
+X <- rnorm(n, 2*Z -1)
+Y <- rnorm(n, 2*Z -1)
+
+```
+Correlation between X and Y
+```{r}
+cor(X,Y)
+```
+
+Correlation when Z is 0
+```{r}
+cor(X[Z==0], Y[Z==0])
+```
+
+Correlation when Z is 1
+```{r}
+cor(X[Z==1], Y[Z==1])
+```
+
+```{r, message=FALSE, warning=FALSE}
+df <- data.frame(X=X, Y=Y, Z=as.factor(Z)) 
+
+df %>% 
+ggplot(aes(x=X, y=Y, color=Z)) +
+  geom_point(alpha=0.2) +
+  geom_smooth(aes(x=X, y=Y), color="black", method="lm", se=FALSE) +
+  geom_smooth(method="lm", se=FALSE) 
+```
+A ⫫/ 
+
+# Marriage and Divorce Rates
+Load data
+```{r}
+data("WaffleDivorce")
+
+df <- WaffleDivorce %>% 
+  mutate(D=standardize(Divorce),
+         M=standardize(Marriage),
+         A=standardize(MedianAgeMarriage))
+
+df %>% 
+  ggplot(aes(y=D, x=M)) +
+  geom_point() +
+  labs(x="Marriage Rate (standardized)", y="Divorce Rate(standardized)")
+
+```
+
+
+```{r dag2, out.width="50%"}
+library(dagitty)
+library(ggdag)
+dagify(
+  D ~ M,
+  M ~ A,
+  D ~ A
+  ) %>%
+  ggplot(aes(x = x, y = y, xend = xend, yend = yend)) +
+  geom_dag_point() + 
+  geom_dag_edges() +
+  geom_dag_text() +
+  theme_dag()
+```
+
+$$ \mu_i = \alpha + \beta_M M_i + \beta_A A_i $$
+
+Often convenient to standardize data because: 
+- Computation works better
+- Easy to choose sensible priors
+
+
+Generative model
+$$ D_i \sim \mathcal{N}(\mu_i,\sigma)$$
+
+$$ \mu_i = \alpha + \beta_m M_i + \beta_A A_i $$
+$$ \alpha \sim \mathcal{N}(0,0.2)$$
+$$ \beta_M \sim \mathcal{N}(0,0.5)$$
+$$ \beta_A \sim \mathcal{N}(0,0.5)$$
+$$ \sigma \sim \text{Exp}(1)$$
+
+- Question in meeting: Why exponential distribution in sigma?
+
+
+
+```{r}
+model0 <- quap(
+  alist(
+    D ~ dnorm(mu,sigma),
+    mu <- a + bM*M,
+    a ~ dnorm(0,0.2),
+    bM ~ dnorm(0,0.5),
+    sigma ~ dexp(1)),
+    data=df
+  )
+
+model1 <- quap(
+  alist(
+    D ~ dnorm(mu,sigma),
+    mu <- a + bM*M + bA*A,
+    a ~ dnorm(0,0.2),
+    bM ~ dnorm(0,0.5),
+    bA ~ dnorm(0,0.5),
+    sigma ~ dexp(1)),
+    data=df
+  )
+
+parameters <- precis(model1)
+print(parameters)
+
+coeftab_plot(coeftab(model0, model1))
+
+
+```
+
+alpha is centered on 0.
+
+
+P(D|do(M)): distribution of D when we intervene on M when we do, deleting all arrows to M is deleted
+
+
+```{r dag, out.width="50%"}
+library(dagitty)
+library(ggdag)
+dagify(
+  D ~ Mdo,
+  #M ~ A,
+  D ~ A
+  ) %>%
+  ggplot(aes(x = x, y = y, xend = xend, yend = yend)) +
+  geom_dag_point() + 
+  geom_dag_edges() +
+  geom_dag_text() +
+  theme_dag()
+```
+
+```{r}
+post <- extract.samples(model1) # Extract samples from the posterior
+n <- 1000 # sample 1000 observations (states)
+As <- sample(df$A, size=n, replace = TRUE)
+
+# simulate D for M=0 using the simulated Age
+DM0 <- rnorm(n, post$a + post$bM * 0 + post$bA * As, post$sigma)
+
+DM1 <- rnorm(n, post$a + post$bM * 1 + post$bA * As, post$sigma)
+
+M10_contrast <- DM1 - DM0
+
+data.frame(M10_contrast) %>% 
+  ggplot(aes(x=M10_contrast)) +
+  geom_density()
+```
+
+p(D|do(A)) 
+
+# The Pipe X → Z → Y
+- Z is a mediator.
+- X and Y is associated. 
+- Y not⫫ X
+- Y ⫫ X | Z
+
+
+```{r}
+n <- 300
+X <- rnorm(n)
+Z <- rbern(n, inv_logit(X))
+Y <- rnorm(n, 2*Z -1)
+
+```
+Correlation between X and Y
+```{r}
+cor(X,Y)
+```
+
+Correlation when Z is 0
+```{r}
+cor(X[Z==0], Y[Z==0])
+```
+
+Correlation when Z is 1
+```{r}
+cor(X[Z==1], Y[Z==1])
+```
+```{r, message=FALSE, warning=FALSE}
+df <- data.frame(X=X, Y=Y, Z=as.factor(Z)) 
+
+df %>% 
+ggplot(aes(x=X, y=Y, color=Z)) +
+  geom_point(alpha=0.2) +
+  geom_smooth(aes(x=X, y=Y), color="black", method="lm", se=FALSE) +
+  geom_smooth(method="lm", se=FALSE) 
+```
+
