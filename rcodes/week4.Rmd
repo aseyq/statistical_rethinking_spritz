@@ -1,0 +1,115 @@
+---
+title: "Lecture 4"
+output: html_document
+date: "2023-03-02"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, warning=FALSE, include=FALSE}
+library(rethinking)
+library(tidyverse)
+theme_set(theme_bw())
+```
+
+# Association between adult weight and and height
+
+```{r}
+data("Howell1")
+
+d <- Howell1[Howell1$age >= 18, ]
+
+```
+
+Generative model
+$$ W_i = \beta H_i + U_i $$
+$$ U_i \sim \mathcal{N}(0,\sigma)$$
+$$ H_i \sim \mathcal{U}(130, 170)$$
+
+
+```{r}
+
+sim_weight <- function(H, b, sd) {
+  # H: vector of heights
+  # b: beta
+  # sd: standard deviation of the error term U
+  # returns a vector of weights
+  U <- rnorm(length(H), 0, sd); 
+  W <- b * H + U
+  return(W)
+}
+
+H <- runif(200, min=130, max=170)
+W <- sim_weight(H, b=0.5, sd=5)
+plot(W~H, col=2, pch=19)
+```
+
+## Estimatior
+$$ \mu_i = \alpha + \beta H_i$$
+
+$$ W_i \sim Normal(\mu_i, \sigma ) $$
+
+```{r}
+m3.1 <- quap(
+  alist(
+    W ~ dnorm(mu, sigma),
+    mu <- a + b*H,
+    a ~ dnorm(0,10),
+    b ~ dunif(0,1),
+    sigma ~ dunif(0, 10)
+    ),
+    data=list(W=W, H=H))
+
+print(m3.1)
+```
+
+
+```{r}
+n <- 1000
+a <- rnorm(n,0,10) # intercept
+b <- runif(n,0,1) # slope
+
+priors <- sample_n(data.frame(a =a, b=b), 100)
+
+ggplot(priors) +
+  geom_abline(aes(intercept=a, slope=b))+
+  expand_limits(x=c(130,170), y=c(50,90))
+  
+```
+
+## Regression with Simulation Data
+
+```{r}
+H <- runif(10, 130, 170)
+W <- sim_weight(H, b=0.5, sd=5)
+
+m3.1 <- quap(
+  alist(
+    W ~ dnorm(mu, sigma),
+    mu <- a + b*H,
+    a ~ dnorm(0,10),
+    b ~ dunif(0,1),
+    sigma ~ dunif(0, 10)
+    ),
+    data=list(W=W, H=H))
+
+print(m3.1)
+precis(m3.1)
+```
+
+## Regression with real data
+
+Just copy paste 
+```{r}
+m3.1 <- quap(
+  alist(
+    W ~ dnorm(mu, sigma),
+    mu <- a + b*H,
+    a ~ dnorm(0,10),
+    b ~ dunif(0,1),
+    sigma ~ dunif(0, 10)
+    ),
+    data=list(W=W, H=H))
+```
