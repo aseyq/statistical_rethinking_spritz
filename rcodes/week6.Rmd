@@ -1,0 +1,168 @@
+---
+title: "Lecture 6: Good and Bad Confounds"
+output: html_document
+date: "2023-03-16"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=TRUE, warning=FALSE, message=FALSE}
+library(rethinking)
+library(tidyverse)
+theme_set(theme_bw())
+```
+
+## Take Aways of the week
+### Fork: X ← Z → Y
+- X and Y are associatied, but not directly each other.
+- Z is common cause of X and Y 
+- If we stratify on Z, X and Y are independent.
+- Conditioning will block the path
+- Example: `Marriage Rate` and `Divorce Rate` influenced by `Age of Marriage` 
+
+### Pipe: X → Z → Y
+- X and Y are associated. 
+- Z transmitting causal relationship
+- If we stratify Z, no association.
+- Conditioning will block the path.
+- Example: Fungus treatment and plant growth example. 
+   
+### Collider: X → Z ← Y. 
+- X and Y are not associated
+- They both influence Z
+- Stratifying Z will make X and Y associated
+- Conditioning on Z, opens the path, make it look like X and Y are correlated.
+- Good looking and talented actors, stratifying on success  
+  
+### Descendent: 
+Collider + a child of Z. Conditioning on the child will also act like collider.
+
+### Backdoor criterion: 
+1. List of all paths connecting X (var. interest) and Y (outcome)
+2. Classify each path whether is open or closed. 
+   - A path is open unless it contains a collider.
+3. Check if there are backdoor paths (arrow entering X) 
+4. If there are open backdoor paths, try to close it by conditioning.
+  
+## Question
+The data in data(foxes) are 116 foxes from 30 different urban groups in England. 
+```{r}
+data(foxes)
+head(foxes)
+
+foxes %>% 
+  ggplot(aes(y=1, x=weight, color=as.factor(group))) + 
+  geom_point() +
+  facet_wrap(.~group) +
+  guides(color="none")
+  
+```
+
+These fox groups
+are like street gangs. Group size (groupsize) varies from 2 to 8 individuals.
+Each group maintains its own (almost exclusive) urban territory. Some ter-
+ritories are larger than others. The area variable encodes this information.
+Some territories also have more avgfood than others. And food influences
+the weight of each fox. Assume this DAG:
+
+```{r, echo=FALSE, message=FALSE}
+library(dagitty)
+library(ggdag)
+dagify(
+  Food ~ Area,
+  GrSize ~ Food,
+  Weight ~ GrSize,
+  Weight ~ Food
+  ) %>%
+  ggplot(aes(x = x, y = y, xend = xend, yend = yend)) +
+  geom_dag_point() + 
+  geom_dag_edges() +
+  geom_dag_text() +
+  theme_dag()
+```
+
+## 1. Use the backdoor criterion and estimate the total causal influence of A on
+F. What effect would increasing the area of a territory have on the amount
+of food inside it?
+
+```{r}
+library(rethinking)
+
+d <- foxes
+
+d$W <- standardize(d$weight)
+d$A <- standardize(d$area)
+d$F <- standardize(d$avgfood)
+d$G <- standardize(d$groupsize)
+
+model1 <- quap(
+  alist(
+  F ~ dnorm( mu , sigma ),
+  mu <- a + bA*A,
+  a ~ dnorm(0,10),
+  bA ~ dnorm(0,10),
+  sigma ~ dexp(1)
+), data=d )
+
+```
+$$ Food_i = \alpha + \beta_A \times \text{Area}_i + \epsilon $$
+```{r}
+precis(model1)
+coeftab_plot(coeftab(model1))
+```
+
+One SD of Area leads on average 0.88 SD in food availability.
+
+## 2. Infer the total causal effect of adding food F to a territory on the weight
+W of foxes. Can you calculate the causal effect by simulating an intervention
+on food?
+$$ Weight_i = \alpha + \beta_F \times \text{Food}_i + \epsilon $$
+
+```{r}
+model2 <- quap(
+            alist(
+              W ~ dnorm( mu , sigma ),
+              mu <- a + bF*F,
+              a ~ dnorm(0,1),
+              bF ~ dnorm(0,1),
+              sigma ~ dexp(1)
+              ), data=d )
+
+precis(model2)
+coeftab_plot(coeftab(model2))
+```
+
+## 3. Infer the direct causal effect of adding food F to a territory on the weight
+W of foxes. In light of your estimates from this problem and the previous
+one, what do you think is going on with these foxes?
+$$ Weight_i = \alpha + \beta_F \times \text{Food}_i + \beta_G \times \text{Group Size}_i + \epsilon $$
+```{r}
+model3 <- quap(
+        alist(
+          W ~ dnorm( mu , sigma ),
+          mu <- a + bF*F + bG*G,
+          a ~ dnorm(0,1),
+          c(bF, bG) ~ dnorm(0,1),
+          sigma ~ dexp(1)
+          ), data=d )
+
+precis(model3)
+coeftab_plot(coeftab(model3))
+```     
+
+```{r}
+model3b <- quap(
+        alist(
+          W ~ dnorm( mu , sigma ),
+          mu <- a + bF*F + bG*G,
+          a ~ dnorm(0,1),
+          bF ~ dnorm(0,1),
+          bG ~ dnorm(0,1),
+          sigma ~ dexp(1)
+          ), data=d )
+
+coeftab_plot(coeftab(model3, model3b))
+```
+
