@@ -7,7 +7,7 @@
 - [McElreath Repo for 2023 Course](https://github.com/rmcelreath/stat_rethinking_2023)
 
 
-# Next Meeting: 23 March 2023, 17:00
+# Next Meeting: 30 March 2023, 17:00
 
 - Video: https://www.youtube.com/watch?v=rZk2FqX2XnY
 - Book: Chapter 8,9
