@@ -9,12 +9,22 @@
 
 # Next Meeting: 23 March 2023, 17:00
 
-- Video: https://www.youtube.com/watch?v=1VgYIsANQck
-- Book: Chapter 7
-- Moderator of the week: TBD
-- Assignment: TBA
+- Video: https://www.youtube.com/watch?v=rZk2FqX2XnY
+- Book: Chapter 8,9
+- Moderator of the week: Piero
+- Assignment: https://github.com/rmcelreath/stat_rethinking_2023/blob/main/homework/week04.pdf
+
 
 # Past Meetings/Updates
+
+
+# Next Meeting: 23 March 2023, 17:00
+
+- Video: https://www.youtube.com/watch?v=1VgYIsANQck
+- Book: Chapter 7
+- Moderator of the week: None 
+- Assignment: None
+
 
 ## Next Meeting: 16 March 2023, 17:00
 
