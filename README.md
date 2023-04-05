@@ -11,7 +11,7 @@
 TBA
 
 # Past Meetings/Updates
-30 March 2023, 17:00
+## Meeting 8: 30 March 2023, 17:00
 
 - Video: https://www.youtube.com/watch?v=rZk2FqX2XnY
 - Book: Chapter 8,9
@@ -19,15 +19,14 @@ TBA
 - Assignment: https://github.com/rmcelreath/stat_rethinking_2023/blob/main/homework/week04.pdf
 
 
-# Next Meeting: 23 March 2023, 17:00
+## Meeting 7: 23 March 2023, 17:00
 
 - Video: https://www.youtube.com/watch?v=1VgYIsANQck
 - Book: Chapter 7
 - Moderator of the week: None 
 - Assignment: None
 
-
-## Next Meeting: 16 March 2023, 17:00
+## Meeting 6: 16 March 2023, 17:00
 
 - Video: https://www.youtube.com/watch?v=uanZZLlzKHw
 - Book: Chapter 6
