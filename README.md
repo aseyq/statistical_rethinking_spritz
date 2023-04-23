@@ -7,10 +7,14 @@
 - [McElreath Repo for 2023 Course](https://github.com/rmcelreath/stat_rethinking_2023)
 
 
-# Next Meeting: 20 April 2023, 17:00 Thursday
-TBA
+# Next Meeting: 26 April 2023, 17:00 Thursday
+## Video (will be watching together): https://www.youtube.com/watch?v=jokxu18egu0
 
 # Past Meetings/Updates
+## Meeting 9: 20 April 2023, 17:00
+- Video: https://www.youtube.com/watch?v=Zi6N3GLUJmw&list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus&index=9&t=3964s
+- Notes: https://rpubs.com/aseyq/rethinking_week9
+
 ## Meeting 8: 30 March 2023, 17:00
 
 - Video: https://www.youtube.com/watch?v=rZk2FqX2XnY
