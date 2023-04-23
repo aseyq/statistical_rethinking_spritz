@@ -8,7 +8,7 @@
 
 
 # Next Meeting: 26 April 2023, 17:00 Thursday
-## Video (will be watching together): https://www.youtube.com/watch?v=jokxu18egu0
+- Video (will be watching together): https://www.youtube.com/watch?v=jokxu18egu0
 
 # Past Meetings/Updates
 ## Meeting 9: 20 April 2023, 17:00
